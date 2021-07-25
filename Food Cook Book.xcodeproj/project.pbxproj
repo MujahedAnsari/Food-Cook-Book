@@ -3,19 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5539B92826AD6F2E00350682 /* MakeIngrientMeasureArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539B92726AD6F2E00350682 /* MakeIngrientMeasureArray.swift */; };
+		5539B92A26AD806C00350682 /* SearchFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539B92926AD806C00350682 /* SearchFoodVC.swift */; };
+		5539B93126AD937700350682 /* FavouriteFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539B93026AD937700350682 /* FavouriteFoodVC.swift */; };
+		5539B93426AD96EA00350682 /* RealMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539B93326AD96EA00350682 /* RealMeal.swift */; };
+		5539B93626ADA26A00350682 /* ConvertReamlToMolde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539B93526ADA26A00350682 /* ConvertReamlToMolde.swift */; };
+		5539B93826ADA30800350682 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539B93726ADA30800350682 /* DBManager.swift */; };
 		558AE3C826AD18AA00A39F2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE3C726AD18AA00A39F2A /* AppDelegate.swift */; };
 		558AE3CA26AD18AA00A39F2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE3C926AD18AA00A39F2A /* SceneDelegate.swift */; };
 		558AE3CC26AD18AA00A39F2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE3CB26AD18AA00A39F2A /* ViewController.swift */; };
 		558AE3CF26AD18AA00A39F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AE3CD26AD18AA00A39F2A /* Main.storyboard */; };
 		558AE3D126AD18AB00A39F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558AE3D026AD18AB00A39F2A /* Assets.xcassets */; };
 		558AE3D426AD18AB00A39F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AE3D226AD18AB00A39F2A /* LaunchScreen.storyboard */; };
+		558AE3DD26AD1FBA00A39F2A /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE3DC26AD1FBA00A39F2A /* HttpUtility.swift */; };
+		558AE3DF26AD201D00A39F2A /* RandomFoodAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE3DE26AD201D00A39F2A /* RandomFoodAPI.swift */; };
+		558AE3E226AD20B000A39F2A /* ConstantsValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE3E126AD20B000A39F2A /* ConstantsValues.swift */; };
+		559008F126AD4F98005D66EF /* SearchByNameAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559008F026AD4F98005D66EF /* SearchByNameAPI.swift */; };
+		AD355DDD0FA5F95CF8B4E56D /* Pods_Food_Cook_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02F09A0AA4B2FDA4FED672E /* Pods_Food_Cook_Book.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5539B90826AD5D6000350682 /* Food Cook Book-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Food Cook Book-Bridging-Header.h"; sourceTree = "<group>"; };
+		5539B92726AD6F2E00350682 /* MakeIngrientMeasureArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeIngrientMeasureArray.swift; sourceTree = "<group>"; };
+		5539B92926AD806C00350682 /* SearchFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFoodVC.swift; sourceTree = "<group>"; };
+		5539B93026AD937700350682 /* FavouriteFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteFoodVC.swift; sourceTree = "<group>"; };
+		5539B93326AD96EA00350682 /* RealMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMeal.swift; sourceTree = "<group>"; };
+		5539B93526ADA26A00350682 /* ConvertReamlToMolde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertReamlToMolde.swift; sourceTree = "<group>"; };
+		5539B93726ADA30800350682 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		558AE3C426AD18AA00A39F2A /* Food Cook Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Cook Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		558AE3C726AD18AA00A39F2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558AE3C926AD18AA00A39F2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,13 @@
 		558AE3D026AD18AB00A39F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558AE3D326AD18AB00A39F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558AE3D526AD18AB00A39F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558AE3DC26AD1FBA00A39F2A /* HttpUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
+		558AE3DE26AD201D00A39F2A /* RandomFoodAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoodAPI.swift; sourceTree = "<group>"; };
+		558AE3E126AD20B000A39F2A /* ConstantsValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsValues.swift; sourceTree = "<group>"; };
+		559008F026AD4F98005D66EF /* SearchByNameAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByNameAPI.swift; sourceTree = "<group>"; };
+		A02F09A0AA4B2FDA4FED672E /* Pods_Food_Cook_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Cook_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CE6B5042AC8409C7ADDB4F /* Pods-Food Cook Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Cook Book.release.xcconfig"; path = "Target Support Files/Pods-Food Cook Book/Pods-Food Cook Book.release.xcconfig"; sourceTree = "<group>"; };
+		CA56EAF77E6A170F3D078427 /* Pods-Food Cook Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Cook Book.debug.xcconfig"; path = "Target Support Files/Pods-Food Cook Book/Pods-Food Cook Book.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +56,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD355DDD0FA5F95CF8B4E56D /* Pods_Food_Cook_Book.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CDE9545C9A04F4A4C0A164B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02F09A0AA4B2FDA4FED672E /* Pods_Food_Cook_Book.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5539B90626AD5CE400350682 /* ThirdPartyLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPartyLib;
+			sourceTree = "<group>";
+		};
+		5539B92B26AD8D4900350682 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5539B93226AD96C900350682 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				5539B93326AD96EA00350682 /* RealMeal.swift */,
+				5539B93526ADA26A00350682 /* ConvertReamlToMolde.swift */,
+				5539B93726ADA30800350682 /* DBManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
 		558AE3BB26AD18AA00A39F2A = {
 			isa = PBXGroup;
 			children = (
 				558AE3C626AD18AA00A39F2A /* Food Cook Book */,
 				558AE3C526AD18AA00A39F2A /* Products */,
+				C2F462E537E825DD8EE83273 /* Pods */,
+				3CDE9545C9A04F4A4C0A164B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,24 +119,73 @@
 				558AE3C726AD18AA00A39F2A /* AppDelegate.swift */,
 				558AE3C926AD18AA00A39F2A /* SceneDelegate.swift */,
 				558AE3CB26AD18AA00A39F2A /* ViewController.swift */,
+				5539B92926AD806C00350682 /* SearchFoodVC.swift */,
+				5539B93026AD937700350682 /* FavouriteFoodVC.swift */,
 				558AE3CD26AD18AA00A39F2A /* Main.storyboard */,
 				558AE3D026AD18AB00A39F2A /* Assets.xcassets */,
 				558AE3D226AD18AB00A39F2A /* LaunchScreen.storyboard */,
 				558AE3D526AD18AB00A39F2A /* Info.plist */,
+				5539B90826AD5D6000350682 /* Food Cook Book-Bridging-Header.h */,
+				5539B92726AD6F2E00350682 /* MakeIngrientMeasureArray.swift */,
+				5539B93226AD96C900350682 /* DB */,
+				558AE3DB26AD1F7700A39F2A /* API */,
+				558AE3E026AD208F00A39F2A /* Common */,
+				5539B90626AD5CE400350682 /* ThirdPartyLib */,
+				5539B92B26AD8D4900350682 /* Extension */,
 			);
 			path = "Food Cook Book";
 			sourceTree = "<group>";
 		};
+		558AE3DB26AD1F7700A39F2A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				558AE3DC26AD1FBA00A39F2A /* HttpUtility.swift */,
+				558AE3DE26AD201D00A39F2A /* RandomFoodAPI.swift */,
+				559008F026AD4F98005D66EF /* SearchByNameAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		558AE3E026AD208F00A39F2A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				558AE3E126AD20B000A39F2A /* ConstantsValues.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C2F462E537E825DD8EE83273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA56EAF77E6A170F3D078427 /* Pods-Food Cook Book.debug.xcconfig */,
+				A9CE6B5042AC8409C7ADDB4F /* Pods-Food Cook Book.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5539B91B26AD623500350682 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		558AE3C326AD18AA00A39F2A /* Food Cook Book */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558AE3D826AD18AB00A39F2A /* Build configuration list for PBXNativeTarget "Food Cook Book" */;
 			buildPhases = (
+				77C99FFAEFD468070388E94F /* [CP] Check Pods Manifest.lock */,
+				5539B91B26AD623500350682 /* Headers */,
 				558AE3C026AD18AA00A39F2A /* Sources */,
 				558AE3C126AD18AA00A39F2A /* Frameworks */,
 				558AE3C226AD18AA00A39F2A /* Resources */,
+				61C8D9F1F5C426EF141A76E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,6 +207,7 @@
 				TargetAttributes = {
 					558AE3C326AD18AA00A39F2A = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -132,14 +242,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61C8D9F1F5C426EF141A76E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Cook Book/Pods-Food Cook Book-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Cook Book/Pods-Food Cook Book-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food Cook Book/Pods-Food Cook Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C99FFAEFD468070388E94F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Cook Book-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		558AE3C026AD18AA00A39F2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5539B92826AD6F2E00350682 /* MakeIngrientMeasureArray.swift in Sources */,
+				559008F126AD4F98005D66EF /* SearchByNameAPI.swift in Sources */,
+				5539B93626ADA26A00350682 /* ConvertReamlToMolde.swift in Sources */,
+				5539B93826ADA30800350682 /* DBManager.swift in Sources */,
+				5539B93426AD96EA00350682 /* RealMeal.swift in Sources */,
+				5539B92A26AD806C00350682 /* SearchFoodVC.swift in Sources */,
+				558AE3DD26AD1FBA00A39F2A /* HttpUtility.swift in Sources */,
+				558AE3DF26AD201D00A39F2A /* RandomFoodAPI.swift in Sources */,
 				558AE3CC26AD18AA00A39F2A /* ViewController.swift in Sources */,
 				558AE3C826AD18AA00A39F2A /* AppDelegate.swift in Sources */,
 				558AE3CA26AD18AA00A39F2A /* SceneDelegate.swift in Sources */,
+				5539B93126AD937700350682 /* FavouriteFoodVC.swift in Sources */,
+				558AE3E226AD20B000A39F2A /* ConstantsValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,39 +445,48 @@
 		};
 		558AE3D926AD18AB00A39F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA56EAF77E6A170F3D078427 /* Pods-Food Cook Book.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G5H4H7D2K3;
 				INFOPLIST_FILE = "Food Cook Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "reading-right.Food-Cook-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Food Cook Book/Food Cook Book-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		558AE3DA26AD18AB00A39F2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CE6B5042AC8409C7ADDB4F /* Pods-Food Cook Book.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G5H4H7D2K3;
 				INFOPLIST_FILE = "Food Cook Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "reading-right.Food-Cook-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Food Cook Book/Food Cook Book-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
